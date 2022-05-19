@@ -770,10 +770,10 @@
                             <div class="icon">
 				    <img src="static/assets/img/kuberneteslogo_64.png">
                             </div>
-                            <h4>List Podes</h4>
+                            <h4>List Pods</h4>
                             <p>A pod is a collection of containers sharing a network and mount namespace and is the basic unit of deployment in Kubernetes.</p>
                             <br />
-                            <h4><button type="button" class="btn btn-outline-secondary" id="myBtn4">List Podes</button></h4>
+                            <h4><button type="button" class="btn btn-outline-secondary" id="myBtn4">List Pods</button></h4>
                         </div>
                     </div>
                     <div id="myModal4" class="modal4">
@@ -781,13 +781,13 @@
                         <div class="modal-content4">
                             <div class="modal-header4">
                                 <span class="close4">&times;</span>
-                                <h2>List Podes</h3>
+                                <h2>List Pods</h3>
                             </div>
                             <div class="modal-body4">
                                 <br />
                                 <p id="p7">Click on the button to get the output</p>
                                 <br /><br />
-                                <button type="button" id="btnn9" class="btn btn-outline-secondary" onclick="kube('pod', 'p7', 'btnn9', 'btnn10');">Podes</button>
+                                <button type="button" id="btnn9" class="btn btn-outline-secondary" onclick="kube('pod', 'p7', 'btnn9', 'btnn10');">Pods</button>
                                 <button type="button" id="btnn10" class="btn btn-outline-secondary" onclick="kube_show('p7', 'btnn10', 'btnn9');">Back</button>
                                 <br /><br />
                             </div>
