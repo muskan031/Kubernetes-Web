@@ -267,7 +267,7 @@
             document.getElementById(b2).style.display = "block";
             var y = document.getElementById(img).value;
             var z = document.getElementById(ver).value;
-            xhr.open("GET", "http://<?=$servname; ?>/cmd.php?x=?x=" + cmd + "&y=" + y + "&z=" + z, true);
+            xhr.open("GET", "http://<?=$servname; ?>/cmd.php?x=" + cmd + "&y=" + y + "&z=" + z, true);
             xhr.send();
             xhr.onload = function() {
                 var output = xhr.responseText;
