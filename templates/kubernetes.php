@@ -1,3 +1,5 @@
+<?php $servname = $_SERVER['SERVER_NAME']; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
